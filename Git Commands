@@ -1,0 +1,33 @@
+git clone https://janvidodia@bitbucket.org/rpoapp/app_rpo.git
+cd app_rpo/
+ls
+cd Rpo-ApiServices/
+git status
+git branch -a
+git checkout -b Sprints/Sprint-04
+git pull origin Sprints/Sprint-04
+cd ../Rpo-FrontEnd/
+git branch -a
+git pull origin Sprints/Sprint-04
+
+git status
+git branch -a
+git pull origin Sprints/Sprint-03
+git status
+git checkout HTML/rpo-pdf.html
+
+git status
+git add Rpo.ApiServices.Api/
+git status
+git commit -m "pdf changes"
+git push origin Sprints/Sprint-03
+gitk Open windows for FTP
+
+
+Migration codefirst
+First step 1
+ add-migration ChangeReferenceDocuments [name of file]
+ First step 2
+ PM> update-database
+ fixed for problem 
+ update-database -TargetMigration ContactAllOptinal
